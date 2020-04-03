@@ -17,10 +17,6 @@ We would love to hear from you!
 
 [View the currently ongoing projects](https://github.com/orgs/checkuponme/projects)
 
-## Table of Contents
-
-[TOC]
-
 ## Links
 
 * [Please donate so that we can keep operating!](https://opencollective.com/checkuponme)
