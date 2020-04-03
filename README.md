@@ -5,6 +5,8 @@ Part of the [Reach4Help](https://www.reach4help.org) Family
 
 [![CheckUpOn.Me site released under the MIT license.](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) [![PRs welcome!](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md) [![! Security!](https://img.shields.io/badge/!-Security-red)](./SECURITY.md)
 
+![CheckUpOn.Me](https://checkupon.me/images/promo/Banner1.png)
+
 CheckUpOn.Me provides a text-distribution and outreach tool for creating connections between volunteers and people who would like to be checked in on. During the COVID-19 pandemic our goal is to help where it's needed most by connecting people who might not have others to rely on with volunteers who will have their backs.
 
 CheckUpOn.Me provides a text-distribution and outreach tool built on top of the Open Source NodeJS project called Spoke, which is currently maintained by MoveOn.org. Spoke is a text-distribution tool for organizations to mobilize supporters and members into action. Spoke allows you to upload phone numbers, customize scripts and assign volunteers to communicate with supporters while allowing organizations to manage the process.
