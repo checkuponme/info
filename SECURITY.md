@@ -5,10 +5,10 @@ considered stable nor production-ready yet.
 
 ## Supported Versions
 
-| Version         | Supported          |
-| --------------- | ------------------ |
-| master branch   | :white_check_mark: |
-| others          | :x:                |
+| Version       | Supported          |
+| ------------- | ------------------ |
+| master branch | :white_check_mark: |
+| others        | :x:                |
 
 ## Reporting a Vulnerability
 
@@ -22,4 +22,6 @@ For information related to security issues affecting Reach4Help, please refer to
 ## Regulatory systems
 
 In Process: GDPR
+
+
 Future: ISO 270001, SOC2, HiTECH.

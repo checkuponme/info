@@ -1,4 +1,3 @@
-
 # CheckUpOn.Me
 
 Part of the [Reach4Help](https://www.reach4help.org) Family
@@ -13,6 +12,9 @@ CheckUpOn.Me provides a text-distribution and outreach tool built on top of the 
 
 **We are an open project! [Learn how to contribute!](./CONTRIBUTING.md)**
 
+We would love to hear from you! 
+[Join us on slack!](https://ckup.me/slack) Join channel #team-checkuponme
+
 [View the currently ongoing projects](https://github.com/orgs/checkuponme/projects)
 
 * [Our Hackathon DevPost](https://devpost.com/software/checkupon-me)
@@ -26,11 +28,11 @@ CheckUpOn.Me provides a text-distribution and outreach tool built on top of the 
 
 ## Team
 
-|Name|Role|Info|
-|-|-|-|
+| Name                                              | Role                        | Info                                                                                                   |
+| ------------------------------------------------- | --------------------------- | ------------------------------------------------------------------------------------------------------ |
 | [Alex Vanino](https://www.linkedin.com/in/vanino) | InfoSec, DevOps, Co-Founder | Slack: [@AlexV (CheckUpOn.Me)](https://app.slack.com/team/U010RBE7J2U), The Progressive Coders Network |
-| Robert Diamond | Lead Developer, Co-Founder | The Progressive Coders Network |
-| Paul Ayre | Community Outreach | |
+| Robert Diamond                                    | Lead Developer, Co-Founder  | The Progressive Coders Network                                                                         |
+| Paul Ayre                                         | Community Outreach          |                                                                                                        |
 
 **Special Thanks**
 
