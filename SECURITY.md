@@ -17,7 +17,7 @@ Instead, please send an email to [security@checkupon.me](mailto:security@checkup
 
 ## Security Advisories
 
-For information related to security issues affecting Reach4Help, please refer to our [security advisories](security/advisories) page.
+For information related to security issues affecting Reach4Help, please refer to our [security advisories](https://github.com/checkuponme/info/security/advisories) page.
 
 ## Regulatory systems
 
