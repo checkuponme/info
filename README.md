@@ -10,6 +10,7 @@ CheckUpOn.Me provides a text-distribution and outreach tool for creating connect
 CheckUpOn.Me provides a text-distribution and outreach tool built on top of the Open Source NodeJS project called Spoke, which is currently maintained by MoveOn.org. Spoke is a text-distribution tool for organizations to mobilize supporters and members into action. Spoke allows you to upload phone numbers, customize scripts and assign volunteers to communicate with supporters while allowing organizations to manage the process.
 
 **We are an open project! [Learn how to contribute!](./CONTRIBUTING.md)**
+[View the currently ongoing projects](https://github.com/orgs/checkuponme/projects)
 
 * [Our Hackathon DevPost](https://devpost.com/software/checkupon-me)
 * [Our Google Drive](https://drive.google.com/drive/u/3/folders/1yI3vNIrw18Ably0OlW2Si0NWnMqZfwWR)
