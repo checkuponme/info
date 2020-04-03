@@ -20,3 +20,8 @@ Instead, please send an email to [security@reach4help.org](mailto:security@reach
 
 For information related to security issues affecting Reach4Help, please refer to our 
 [security advisories](https://github.com/reach4help/reach4help/security/advisories) page.
+
+## Regulatory systems
+
+In Process: GDPR
+Future: ISO 270001, SOC2, HiTECH.
