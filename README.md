@@ -58,7 +58,7 @@ While we are certainly open to all forms of help, we are currently looking for p
 #### Engineering
 
 - Frontend and backend developers with Twilio, NodeJS, React, Graphql and responsive web design experience.
-- Site Reliability / DevOpsInformation Security and Compliance
+- Site Reliability / DevOps Lead
 
 #### People Operations
 
