@@ -17,16 +17,22 @@ We would love to hear from you!
 
 [View the currently ongoing projects](https://github.com/orgs/checkuponme/projects)
 
+## Table of Contents
+
+[TOC]
+
+## Links
+
+* [Please donate so that we can keep operating!](https://opencollective.com/checkuponme)
 * [Our Hackathon DevPost](https://devpost.com/software/checkupon-me)
 * [Our Google Drive](https://drive.google.com/drive/u/3/folders/1yI3vNIrw18Ably0OlW2Si0NWnMqZfwWR)
 * [Progressive Coders Project Proposal](https://github.com/ProgressiveCoders/projects/issues/160)
 * [The Progressive Coders Network](https://www.progcode.org)
 * [Helpful Engineering](https://www.helpfulengineering.org)
 * [Functional Specification](https://docs.google.com/document/d/13fXcPPEUqrn-WzIEtGMBgIJfCJyRTFELOs2QWT_SmVc/edit#heading=h.671dnefa917m)
-* [Donate!](https://opencollective.com/checkuponme)
 * [Our URL Shortener - ckup.me](https://ckup.me)
 
-## Team
+## Our Team
 
 | Name                                              | Role                        | Info                                                                                                   |
 | ------------------------------------------------- | --------------------------- | ------------------------------------------------------------------------------------------------------ |
@@ -34,38 +40,76 @@ We would love to hear from you!
 | Robert Diamond                                    | Lead Developer, Co-Founder  | The Progressive Coders Network                                                                         |
 | Paul Ayre                                         | Community Outreach          |                                                                                                        |
 
-**Special Thanks**
+### Special thanks to
 
-Stephen Scapelliti - The Progressive Coders Network
+- [Stephen Scapelliti](https://www.linkedin.com/in/stephen-scapelliti/) of the Progressive Coders Network for helping advise on different legal and organizational processes.
 
-## Production Env
-
-* Website: [https://checkupon.me](https://checkupon.me)
-* App/Spoke: [https://spoke.checkupon.me](https://spoke.checkupon.me)
-
-## Development Env
-
-* Website: [https://dev.checkupon.me](https://dev.checkupon.me)
-* App/Spoke: [https://dev-spoke.checkupon.me](https://dev-spoke.checkupon.me)
-
-## Stack Information
-
-* [Spoke](https://opensource.moveon.org/) - [GitHub](https://github.com/moveonorg/spoke) 
-* [Politics Rewired Spoke](https://politicsrewired.com/spoke/) - [Github](https://github.com/politics-rewired/Spoke) 
-* #spoke on progcode slack
-
-## Team Standup Meetings
+### Team Standup Meetings
 
 Agenda: [https://ckup.me/agenda](https://ckup.me/agenda)
 
 * NA-Timezone Meeting [https://zoom.us/j/455777814](https://zoom.us/j/455777814) at 8:00PM EST every Friday and Monday
 * EU-Timezone Meeting [https://zoom.us/j/225526065](https://zoom.us/j/225526065) at 11:00AM EST every Wednesday
 
-## CheckUpOnMe Interaction Flow
+### We're looking for help!
+
+While we are certainly open to all forms of help, we are currently looking for people to fill the following high priority roles:
+
+#### Engineering
+
+- Frontend and backend developers with Twilio, NodeJS, React, Graphql and responsive web design experience.
+- Site Reliability / DevOpsInformation Security and Compliance
+
+#### People Operations
+
+- Coordinators with experience managing large groups of volunteers remotely
+- Talent Recruiter
+- Local coordinators to help manage things on the ground in specific areas. People around major cities are most needed right now
+
+#### Org Operations
+
+- Social media, hackathon presence and PR specialist
+- Funding and Donor coordinator - Network and manage our relationships with donors and funding sources
+- Partner organization coordinator - Manage our relationships with other organizations
+- Financial Bookkeeper
+
+These are all positions that have the possibility of evolving into part time or full time paid opportunities as more funding becomes available. If you feel that you would excel in any of those roles, feel free to drop by our slack channel: https://ckup.me/slack **#team-checkuponme** and introduce yourself!
+
+## Funding
+
+We are currently incorporating as a corporation within the United States for funding purposes. We’ve already been rewarded with over $10,000 (Thanks to HWC, AWS, GCP, and Twilio) in funding and expect more funding where that came from. We are fully transparent with our donations and funding. 
+
+We are on Open Collective: https://opencollective.com/checkuponme 
+
+[Please donate so that we can keep operating!](https://opencollective.com/checkuponme)
+
+We’re currently exploring opportunities for further funding our project. We’re mainly operating off personal development machines (Hosted on developers personal internet connections) and free Heroku services which I’m afraid won’t be maintainable once we go live. We are also developing all tech solutions in house or using open source solutions. Finally no one, including myself is being paid for any of the work we are putting into this project. It is truly a project of passion.
+
+Because of the work we are putting forward in solving a major issue during this pandemic, we are looking for assistance with obtaining funding via operating grants or outside investors so that we may continue to operate and continue providing valuable services to the community.
+
+## Development Information
+
+### Production Env
+
+* Website: [https://checkupon.me](https://checkupon.me)
+* App/Spoke: [https://spoke.checkupon.me](https://spoke.checkupon.me)
+
+### Development Env
+
+* Website: [https://dev.checkupon.me](https://dev.checkupon.me)
+* App/Spoke: [https://dev-spoke.checkupon.me](https://dev-spoke.checkupon.me)
+
+### Stack Information
+
+* [Spoke](https://opensource.moveon.org/) - [GitHub](https://github.com/moveonorg/spoke) 
+* [Politics Rewired Spoke](https://politicsrewired.com/spoke/) - [Github](https://github.com/politics-rewired/Spoke) 
+* #spoke on progcode slack
+
+### CheckUpOnMe Interaction Flow
 
 ![CheckUpOnMe Interaction Flow](https://checkupon.me/images/spec/DataFlowDiagram-20200326.png)
 
-## Integration with ReachForHelp MVP
+### Integration with ReachForHelp MVP
 
 The ReachForHelp (r4h) organization has developed a strong platform for vetting volunteers and Persons In Need (PINs). This lends itself to complementary functionality, where r4h handles the creation of users, volunteers, and campaigns (geographic regions), and spoke handles workflow management and call connection.
 This would be handled via service triggers built into r4h. A new user corresponds to a PIN, so will be added to campaign_contacts. As yet unanswered is how to organize campaigns in spoke, since there’s already a zip code function we should leverage that. Volunteers would be added to the users table, and assigned to teams.
