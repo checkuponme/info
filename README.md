@@ -61,6 +61,7 @@ While we are certainly open to all forms of help, we are currently looking for p
 - Coordinators with experience managing large groups of volunteers remotely
 - Talent Recruiter
 - Local coordinators to help manage things on the ground in specific areas. People around major cities are most needed right now
+- Outreach Volunteers that will be the core of our platform. These volunteers will communicate with people in need through our SMS messaging platform.
 
 #### Org Operations
 
