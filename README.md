@@ -1,4 +1,4 @@
-# CheckUpOn.Me
+# [CheckUpOn.Me](https://checkupon.me)
 
 Part of the [Reach4Help](https://www.reach4help.org) Family
 
@@ -6,7 +6,7 @@ Part of the [Reach4Help](https://www.reach4help.org) Family
 
 ![CheckUpOn.Me](https://checkupon.me/images/promo/Banner1.png)
 
-CheckUpOn.Me provides a text-distribution and outreach tool for creating connections between volunteers and people who would like to be checked in on. During the COVID-19 pandemic our goal is to help where it's needed most by connecting people in need with volunteers who will be ready to take action.
+[CheckUpOn.Me](https://checkupon.me) provides a text-distribution and outreach tool for creating connections between volunteers and people who would like to be checked in on. During the COVID-19 pandemic our goal is to help where it's needed most by connecting people in need with volunteers who will be ready to take action.
 
 Our outreach platform is built with open source tools such as Nodejs, React, PHP, and Linux. Our platform helps organizations mobilize supporters and members into action and allows us to manage lists of contacts, customize scripts and assign volunteers to communicate with supporters while allowing organizations to manage the process.
 
