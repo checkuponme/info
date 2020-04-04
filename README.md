@@ -42,10 +42,11 @@ We would love to hear from you!
 
 ### Team Standup Meetings
 
-Agenda: [https://ckup.me/agenda](https://ckup.me/agenda)
+Open Standups: 8:00PM EST Monday & Friday and 11:00AM EST every Wednesday.
 
-* NA-Timezone Meeting [https://zoom.us/j/455777814](https://zoom.us/j/455777814) at 8:00PM EST every Friday and Monday
-* EU-Timezone Meeting [https://zoom.us/j/225526065](https://zoom.us/j/225526065) at 11:00AM EST every Wednesday
+- Agenda: https://ckup.me/standup-agenda
+- Video Call: https://ckup.me/standup-video
+- Dial-In: https://ckup.me/standup-dialin
 
 ### We're looking for help!
 
