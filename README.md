@@ -65,7 +65,7 @@ While we are certainly open to all forms of help, we are currently looking for p
 
 #### Org Operations
 
-- Social media, hackathon presence and PR specialist
+- Social media, hackathon presence, marketing and PR specialists
 - Funding and Donor coordinator - Network and manage our relationships with donors and funding sources
 - Partner organization coordinator - Manage our relationships with other organizations
 - Financial Bookkeeper
