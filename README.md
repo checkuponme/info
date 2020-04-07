@@ -42,7 +42,7 @@ We would love to hear from you!
 
 ### Team Standup Meetings
 
-Open Standups: 8:00PM EST Monday & Friday and 11:00AM EST every Wednesday.
+Open Standups: 8:00PM EST every Tuesday and 11:00AM EST every Thursday.
 
 - Agenda: https://ckup.me/standup-agenda
 - Video Call: https://ckup.me/standup-video
