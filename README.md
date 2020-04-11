@@ -20,25 +20,26 @@ We would love to hear from you!
 ## Links
 
 * [Please donate so that we can keep operating!](https://opencollective.com/checkuponme)
+* [Project Overview and Functional Specification](https://docs.google.com/document/d/13fXcPPEUqrn-WzIEtGMBgIJfCJyRTFELOs2QWT_SmVc)
 * [Our Hackathon DevPost](https://devpost.com/software/checkupon-me)
 * [Our Google Drive](https://drive.google.com/drive/u/3/folders/1yI3vNIrw18Ably0OlW2Si0NWnMqZfwWR)
 * [Progressive Coders Project Proposal](https://github.com/ProgressiveCoders/projects/issues/160)
 * [The Progressive Coders Network](https://www.progcode.org)
 * [Helpful Engineering](https://www.helpfulengineering.org)
-* [Functional Specification](https://docs.google.com/document/d/13fXcPPEUqrn-WzIEtGMBgIJfCJyRTFELOs2QWT_SmVc/edit#heading=h.671dnefa917m)
 * [Our URL Shortener - ckup.me](https://ckup.me)
 
 ## Our Team
 
-| Name                                              | Role                        | Info                                                                                                   |
-| ------------------------------------------------- | --------------------------- | ------------------------------------------------------------------------------------------------------ |
+| Name                                              | Role                        | Info                                                         |
+| ------------------------------------------------- | --------------------------- | ------------------------------------------------------------ |
 | [Alex Vanino](https://www.linkedin.com/in/vanino) | InfoSec, DevOps, Co-Founder | Slack: [@AlexV (CheckUpOn.Me)](https://app.slack.com/team/U010RBE7J2U), The Progressive Coders Network |
-| Robert Diamond                                    | Lead Developer, Co-Founder  | The Progressive Coders Network                                                                         |
-| Paul Ayre                                         | Community Outreach          |                                                                                                        |
 
 ### Special thanks to
 
-- [Stephen Scapelliti](https://www.linkedin.com/in/stephen-scapelliti/) of the Progressive Coders Network for helping advise on different legal and organizational processes.
+- [Ben Chrobot](https://www.linkedin.com/in/benjaminchrobot/) of [Politics Rewired](https://politicsrewired.com/) for all of the help he has given us with getting out spoke instance up and running. 
+- [Pedro Filipe and Shayan Chowdhury and the rest of the Reach4Help team](https://github.com/reach4help/reach4help/blob/master/docs/TEAMS.md) for their ongoing support and awesomeness.
+- [Stephen Scapelliti](https://www.linkedin.com/in/stephen-scapelliti/) of the [Progressive Coders Network](https://www.progcode.org) for helping advise on different legal and organizational processes.
+- [Robert Diamond](https://www.linkedin.com/in/rmd6502/) of the [Progressive Coders Network](https://www.progcode.org) for all of his help with spoke.
 
 ### Team Standup Meetings
 
