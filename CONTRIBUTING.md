@@ -29,7 +29,7 @@ At this point, you're ready to make your changes! Feel free to ask for help; eve
 Each project counts with it's own contributing guidelines, since they are different.
 So to read the specific guidelines for each project please refer to the CONTRIBUTING.md doc in the respective repository.
 
-[View the currently ongoing projects](https://github.com/orgs/checkuponme/projects)
+[View the currently ongoing org wide projects](https://app.zenhub.com/workspaces/checkuponme-5e8e3956beee58232ea519a4/board?repos=252629679,252606726,250885954,249560771)
 
 ### How to report a bug
 

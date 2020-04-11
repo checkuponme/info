@@ -15,7 +15,7 @@ Our outreach platform is built with open source tools such as Nodejs, React, PHP
 We would love to hear from you! 
 [Join us on slack!](https://ckup.me/slack) Join channel #team-checkuponme
 
-[View the currently ongoing projects](https://github.com/orgs/checkuponme/projects)
+[View the currently ongoing projects](https://app.zenhub.com/workspaces/checkuponme-5e8e3956beee58232ea519a4/board?repos=252629679,252606726,250885954,249560771)
 
 ## Links
 
