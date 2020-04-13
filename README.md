@@ -21,6 +21,7 @@ We would love to hear from you!
 
 * [Please donate so that we can keep operating!](https://opencollective.com/checkuponme)
 * [Project Overview and Functional Specification](https://docs.google.com/document/d/13fXcPPEUqrn-WzIEtGMBgIJfCJyRTFELOs2QWT_SmVc)
+* [Spoke User Manual](https://docs.spokerewired.com/)
 * [Our Hackathon DevPost](https://devpost.com/software/checkupon-me)
 * [Our Google Drive](https://drive.google.com/drive/u/3/folders/1yI3vNIrw18Ably0OlW2Si0NWnMqZfwWR)
 * [Progressive Coders Project Proposal](https://github.com/ProgressiveCoders/projects/issues/160)
