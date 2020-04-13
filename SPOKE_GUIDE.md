@@ -8,109 +8,109 @@ Part of the [Reach4Help](https://www.reach4help.org) Family
 
 # Table of Contents
 
-   * [Getting Started with Spoke](#getting-started-with-spoke)
-      * [Using this documentation](#using-this-documentation)
-            * [Administrators](#administrators)
-                * [Texters / Volunteers](#texters--volunteers)
-      * [Dashboards](#dashboards)
-         * [Administration dashboard](#administration-dashboard)
-         * [Texter dashboard](#texter-dashboard)
-   * [Administering Spoke](#administering-spoke)
-      * [Invite texters to Spoke](#invite-texters-to-spoke)
-      * [Assign user roles](#assign-user-roles)
-      * [Create a team](#create-a-team)
-      * [Organizations](#organizations)
-   * [Concepts](#concepts)
-      * [Campaigns](#campaigns)
-      * [Interaction scripts](#interaction-scripts)
-         * [Images](#images)
-      * [Assignments](#assignments)
-         * [Manual assignment](#manual-assignment)
-         * [Dynamic assignment](#dynamic-assignment)
-         * [Auto-assignment](#auto-assignment)
-      * [Teams](#teams)
-      * [Contact overlap management](#contact-overlap-management)
-      * [Canned responses](#canned-responses)
-      * [Texting hours](#texting-hours)
-      * [Campaign actions](#campaign-actions)
-            * [Release Unsent Messages](#release-unsent-messages)
-            * [Mark For Second Pass](#mark-for-second-pass)
-            * [Release Unreplied Conversations](#release-unreplied-conversations)
-            * [Archive Campaign](#archive-campaign)
-      * [Due dates](#due-dates)
-      * [Contact lists](#contact-lists)
-      * [CSV Format](#csv-format)
-            * [Custom fields](#custom-fields)
-      * [Uploading contact lists](#uploading-contact-lists)
-      * [Filtering existing campaigns](#filtering-existing-campaigns)
-      * [Conversation tags](#conversation-tags)
-      * [Bulk script editor](#bulk-script-editor)
-      * [Short-link domains](#short-link-domains)
-      * [Settings](#settings)
-      * [Opt-out message](#opt-out-message)
-      * [Texting hours](#texting-hours-1)
-      * [Assemble Numbers API key](#assemble-numbers-api-key)
-      * [Sending locations](#sending-locations)
-      * [Send Status](#send-status)
-      * [User Roles](#user-roles)
-         * [Owner](#owner)
-         * [Administrator](#administrator)
-         * [Texter](#texter)
-   * [Managing campaigns](#managing-campaigns)
-      * [Create a new campaign](#create-a-new-campaign)
-         * [Step 1: Start the campaign creation wizard](#step-1-start-the-campaign-creation-wizard)
-         * [Step 2: Enter campaign information](#step-2-enter-campaign-information)
-         * [Step 3: Import contacts to the campaign](#step-3-import-contacts-to-the-campaign)
-         * [Step 4: Resolve any overlapping contacts with other campaigns](#step-4-resolve-any-overlapping-contacts-with-other-campaigns)
-         * [Step 5: (Optional) Assign teams to the campaign](#step-5-optional-assign-teams-to-the-campaign)
-         * [Step 6: Set the assignment options for texters](#step-6-set-the-assignment-options-for-texters)
-            * [Manually assign contacts to texters](#manually-assign-contacts-to-texters)
-            * [Dynamically assign contacts to texters](#dynamically-assign-contacts-to-texters)
-            * [Auto-assignment](#auto-assignment-1)
-         * [Step 7: Create an interaction script for your texters](#step-7-create-an-interaction-script-for-your-texters)
-         * [Step 8: Create canned responses for off-script responses](#step-8-create-canned-responses-for-off-script-responses)
-         * [Step 9: Set texting hours to minimize disturbance](#step-9-set-texting-hours-to-minimize-disturbance)
-         * [Step 10: Set the auto-assignment option](#step-10-set-the-auto-assignment-option)
-         * [Step 11: Start the campaign](#step-11-start-the-campaign)
-      * [Create an interaction script](#create-an-interaction-script)
-      * [Colors and tags for active campaigns](#colors-and-tags-for-active-campaigns)
-      * [Color coding](#color-coding)
-      * [Tags](#tags)
-      * [Reassign conversations to texters](#reassign-conversations-to-texters)
-      * [From the message review page](#from-the-message-review-page)
-      * [From the escalated conversations page](#from-the-escalated-conversations-page)
-      * [From the campaign list](#from-the-campaign-list)
-            * [Release unsent messages](#release-unsent-messages-1)
-            * [Release unreplied conversations](#release-unreplied-conversations-1)
-      * [Export data from a campaign](#export-data-from-a-campaign)
-      * [Campaign actions](#campaign-actions-1)
-            * [Release Unsent Messages](#release-unsent-messages-2)
-            * [Mark For Second Pass](#mark-for-second-pass-1)
-            * [Release Unreplied Conversations](#release-unreplied-conversations-2)
-            * [Archive Campaign](#archive-campaign-1)
-   * [Spoke Contact Tool Guide](#spoke-contact-tool-guide)
-   * [Text a contact](#text-a-contact)
-      * [Send initial messages](#send-initial-messages)
-      * [Send replies](#send-replies)
-      * [Request texts for assignment](#request-texts-for-assignment)
-      * [Add tags to a conversation](#add-tags-to-a-conversation)
-      * [Opt out a contact](#opt-out-a-contact)
-         * [Opt out with a message](#opt-out-with-a-message)
-         * [Opt out without a message](#opt-out-without-a-message)
-      * [Use a canned response](#use-a-canned-response)
-      * [Skip a reply](#skip-a-reply)
-      * [Escalate a conversation](#escalate-a-conversation)
-      * [Include an image in a message](#include-an-image-in-a-message)
-         * [Size limitations](#size-limitations)
-         * [Send an image with links](#send-an-image-with-links)
-   * [Appendix](#appendix)
-      * [Timezone Reference](#timezone-reference)
+* [Getting Started with Spoke](#getting-started-with-spoke)
+   * [Using this documentation](#using-this-documentation)
+         * [Administrators](#administrators)
+             * [Texters / Volunteers](#texters--volunteers)
+   * [Dashboards](#dashboards)
+      * [Administration dashboard](#administration-dashboard)
+      * [Texter dashboard](#texter-dashboard)
+* [Administering Spoke](#administering-spoke)
+   * [Invite texters to Spoke](#invite-texters-to-spoke)
+   * [Assign user roles](#assign-user-roles)
+   * [Create a team](#create-a-team)
+   * [Organizations](#organizations)
+* [Concepts](#concepts)
+   * [Campaigns](#campaigns)
+   * [Interaction scripts](#interaction-scripts)
+      * [Images](#images)
+   * [Assignments](#assignments)
+      * [Manual assignment](#manual-assignment)
+      * [Dynamic assignment](#dynamic-assignment)
+      * [Auto-assignment](#auto-assignment)
+   * [Teams](#teams)
+   * [Contact overlap management](#contact-overlap-management)
+   * [Canned responses](#canned-responses)
+   * [Texting hours](#texting-hours)
+   * [Campaign actions](#campaign-actions)
+         * [Release Unsent Messages](#release-unsent-messages)
+         * [Mark For Second Pass](#mark-for-second-pass)
+         * [Release Unreplied Conversations](#release-unreplied-conversations)
+         * [Archive Campaign](#archive-campaign)
+   * [Due dates](#due-dates)
+   * [Contact lists](#contact-lists)
+   * [CSV Format](#csv-format)
+         * [Custom fields](#custom-fields)
+   * [Uploading contact lists](#uploading-contact-lists)
+   * [Filtering existing campaigns](#filtering-existing-campaigns)
+   * [Conversation tags](#conversation-tags)
+   * [Bulk script editor](#bulk-script-editor)
+   * [Short-link domains](#short-link-domains)
+   * [Settings](#settings)
+   * [Opt-out message](#opt-out-message)
+   * [Texting hours](#texting-hours-1)
+   * [Assemble Numbers API key](#assemble-numbers-api-key)
+   * [Sending locations](#sending-locations)
+   * [Send Status](#send-status)
+   * [User Roles](#user-roles)
+      * [Owner](#owner)
+      * [Administrator](#administrator)
+      * [Texter](#texter)
+* [Managing campaigns](#managing-campaigns)
+   * [Create a new campaign](#create-a-new-campaign)
+      * [Step 1: Start the campaign creation wizard](#step-1-start-the-campaign-creation-wizard)
+      * [Step 2: Enter campaign information](#step-2-enter-campaign-information)
+      * [Step 3: Import contacts to the campaign](#step-3-import-contacts-to-the-campaign)
+      * [Step 4: Resolve any overlapping contacts with other campaigns](#step-4-resolve-any-overlapping-contacts-with-other-campaigns)
+      * [Step 5: (Optional) Assign teams to the campaign](#step-5-optional-assign-teams-to-the-campaign)
+      * [Step 6: Set the assignment options for texters](#step-6-set-the-assignment-options-for-texters)
+         * [Manually assign contacts to texters](#manually-assign-contacts-to-texters)
+         * [Dynamically assign contacts to texters](#dynamically-assign-contacts-to-texters)
+         * [Auto-assignment](#auto-assignment-1)
+      * [Step 7: Create an interaction script for your texters](#step-7-create-an-interaction-script-for-your-texters)
+      * [Step 8: Create canned responses for off-script responses](#step-8-create-canned-responses-for-off-script-responses)
+      * [Step 9: Set texting hours to minimize disturbance](#step-9-set-texting-hours-to-minimize-disturbance)
+      * [Step 10: Set the auto-assignment option](#step-10-set-the-auto-assignment-option)
+      * [Step 11: Start the campaign](#step-11-start-the-campaign)
+   * [Create an interaction script](#create-an-interaction-script)
+   * [Colors and tags for active campaigns](#colors-and-tags-for-active-campaigns)
+   * [Color coding](#color-coding)
+   * [Tags](#tags)
+   * [Reassign conversations to texters](#reassign-conversations-to-texters)
+   * [From the message review page](#from-the-message-review-page)
+   * [From the escalated conversations page](#from-the-escalated-conversations-page)
+   * [From the campaign list](#from-the-campaign-list)
+         * [Release unsent messages](#release-unsent-messages-1)
+         * [Release unreplied conversations](#release-unreplied-conversations-1)
+   * [Export data from a campaign](#export-data-from-a-campaign)
+   * [Campaign actions](#campaign-actions-1)
+         * [Release Unsent Messages](#release-unsent-messages-2)
+         * [Mark For Second Pass](#mark-for-second-pass-1)
+         * [Release Unreplied Conversations](#release-unreplied-conversations-2)
+         * [Archive Campaign](#archive-campaign-1)
+* [Spoke Contact Tool Guide](#spoke-contact-tool-guide)
+* [Text a contact](#text-a-contact)
+   * [Send initial messages](#send-initial-messages)
+   * [Send replies](#send-replies)
+   * [Request texts for assignment](#request-texts-for-assignment)
+   * [Add tags to a conversation](#add-tags-to-a-conversation)
+   * [Opt out a contact](#opt-out-a-contact)
+      * [Opt out with a message](#opt-out-with-a-message)
+      * [Opt out without a message](#opt-out-without-a-message)
+   * [Use a canned response](#use-a-canned-response)
+   * [Skip a reply](#skip-a-reply)
+   * [Escalate a conversation](#escalate-a-conversation)
+   * [Include an image in a message](#include-an-image-in-a-message)
+      * [Size limitations](#size-limitations)
+      * [Send an image with links](#send-an-image-with-links)
+* [Appendix](#appendix)
+   * [Timezone Reference](#timezone-reference)
 
 # Getting Started with Spoke
 
 To get started with this guide you will need access to a spoke instance. You can either set one up yourself with the directions in the spoke repo or you can drop in on [slack](https://ckup.me/slack) and request access to one of our instances.
 
-Through Spoke, you can organize texting [campaigns](./SPOKE_GUIDE.md#campaigns), which provide the structure and tools needed to connect [texters](./SPOKE_GUIDE.md#spoke-contact-tool-guide) in your organization with your contacts. Spoke is meant to be used in combination with a CRM. Spoke is not a CRM and should not be used as one.
+Through Spoke, you can organize texting [campaigns](#campaigns), which provide the structure and tools needed to connect [texters](#spoke-contact-tool-guide) in your organization with your contacts. Spoke is meant to be used in combination with a CRM. Spoke is not a CRM and should not be used as one.
 
 Spoke's key features include:
 
@@ -122,40 +122,40 @@ Spoke's key features include:
 
 ## Using this documentation
 
-The documentation that you find on this website is intended for both Spoke administrators and texters. We recommend that you browse the collections of articles listed below or that you visit [Dashboards](./SPOKE_GUIDE.md#dashboards-1).
+The documentation that you find on this website is intended for both Spoke administrators and texters. We recommend that you browse the collections of articles listed below or that you visit [Dashboards](#dashboards).
 
 #### Administrators
 
 If you are an administrator, we recommend looking through the following categories:
 
-- [Getting started with Spoke](./SPOKE_GUIDE.md#getting-started-with-spoke) -- Introductory articles about first steps with Spoke
-- [Administering Spoke](./SPOKE_GUIDE.md#administering-spoke) -- Guides for administrators to set up user accounts and other {administrator things}
-- [Managing campaigns](./SPOKE_GUIDE.md#managing-campaigns) -- Guides for administrators to create and manage texting campaigns
-- [Concepts](./SPOKE_GUIDE.md#concepts) -- Articles describing the different components you'll find Spoke
+- [Getting started with Spoke](#getting-started-with-spoke) -- Introductory articles about first steps with Spoke
+- [Administering Spoke](#administering-spoke) -- Guides for administrators to set up user accounts and other {administrator things}
+- [Managing campaigns](#managing-campaigns) -- Guides for administrators to create and manage texting campaigns
+- [Concepts](#concepts) -- Articles describing the different components you'll find Spoke
 
 #### Texters / Volunteers
 
 If you are a texter, we recommend looking through the following categories:
 
-- [Getting started with Spoke](./SPOKE_GUIDE.md#getting-started-with-spoke) -- Introductory articles about first steps with Spoke
-- [Texting contacts](./SPOKE_GUIDE.md#spoke-contact-tool-guide) -- Guides for texters to use the Spoke messaging application
-- [Concepts](./SPOKE_GUIDE.md#concepts) -- Articles describing the different components you'll find in Spoke
+- [Getting started with Spoke](#getting-started-with-spoke) -- Introductory articles about first steps with Spoke
+- [Texting contacts](#spoke-contact-tool-guide) -- Guides for texters to use the Spoke messaging application
+- [Concepts](#concepts) -- Articles describing the different components you'll find in Spoke
 
 ## Dashboards
 
 ### Administration dashboard
 
-The administration dashboard lets you manage your Spoke [organization](./SPOKE_GUIDE.md#organizations-1). From the administration dashboard, you can access the following:
+The administration dashboard lets you manage your Spoke [organization](#organizations). From the administration dashboard, you can access the following:
 
-- [Campaigns](./SPOKE_GUIDE.md#campaigns)
-- [User roles](./SPOKE_GUIDE.md#user-roles)
-- [Teams](./SPOKE_GUIDE.md#teams)
-- [Assignments](./SPOKE_GUIDE.md#assignments)
-- [Interaction scripts](./SPOKE_GUIDE.md#interaction-scripts)
-- [Short-link domains](./SPOKE_GUIDE.md#short-link-domains)
-- [Settings](./SPOKE_GUIDE.md#settings)
+- [Campaigns](#campaigns)
+- [User roles](#user-roles)
+- [Teams](#teams)
+- [Assignments](#assignments)
+- [Interaction scripts](#interaction-scripts)
+- [Short-link domains](#short-link-domains)
+- [Settings](#settings)
 
-You must be an [administrator or owner](./SPOKE_GUIDE.md#user-roles) for your Spoke organization to use the administration dashboard. To access the administration dashboard, use the following URL: 
+You must be an [administrator or owner](#user-roles) for your Spoke organization to use the administration dashboard. To access the administration dashboard, use the following URL: 
 
 https://spoke.checkupon.me/admin/organization-number
 
@@ -188,12 +188,12 @@ When someone clicks on the link, they will be able to create an account.
 
 ## Assign user roles
 
-[User roles](./SPOKE_GUIDE.md#user-roles) can be assigned from the "People" page of the [administration dashboard](./SPOKE_GUIDE.md#dashboards-1). After you [invite texters](./SPOKE_GUIDE.md#invite-texters-to-spoke) to your Spoke organization, users are automatically listed with the default **Texter** role.
+[User roles](#user-roles) can be assigned from the "People" page of the [administration dashboard](#dashboards). After you [invite texters](#invite-texters-to-spoke) to your Spoke organization, users are automatically listed with the default **Texter** role.
 
 To change a user's role:
 
 1. From the "People" page, click the arrow next to the role name.
-2. Select a new role. For more information about the different user roles, see [User roles](./SPOKE_GUIDE.md#user-roles).
+2. Select a new role. For more information about the different user roles, see [User roles](#user-roles).
 
 ## Create a team
 
@@ -201,7 +201,7 @@ Teams let you group the texters in your organization based on some factor, such 
 
 To create a team:
 
-1. From the [administration dashboard](./SPOKE_GUIDE.md#dashboards-1), navigate to the "Teams" page.
+1. From the [administration dashboard](#dashboards), navigate to the "Teams" page.
 2. Click **Add**.
 3. Enter a team name.
 4. Enter a description for the team.
@@ -225,23 +225,23 @@ Each organization has a separate:
 - Pool of phone numbers for sending messages (for example, when different lists would be sent by two separate numbers)
 - Opt-out list (for example, this would allow a contact to opt-out of specific lists).
 
-The organization is defined by a number, which is visible in the URL of both [dashboards](./SPOKE_GUIDE.md#dashboards-1).
+The organization is defined by a number, which is visible in the URL of both [dashboards](#dashboards).
 
 # Concepts
 
 ## Campaigns
 
-Campaigns are the central feature of Spoke. They provide the structure and tools for [texters](./SPOKE_GUIDE.md#user-roles) to engage in conversations with your contacts.
+Campaigns are the central feature of Spoke. They provide the structure and tools for [texters](#user-roles) to engage in conversations with your contacts.
 
-Each campaign has a contact list and an [interaction script](./SPOKE_GUIDE.md#interaction-scripts). When you start a campaign, contacts are assigned to texters, who can then initiate a conversation using the interaction script. 
+Each campaign has a contact list and an [interaction script](#interaction-scripts). When you start a campaign, contacts are assigned to texters, who can then initiate a conversation using the interaction script. 
 
 A campaign should have a single purpose -- for example, to inform your contacts of an event or to ask about issue priority -- so that you can tailor your interaction script to properly convey that information. You can run multiple campaigns simultaneously to reach your contacts about different things.
 
-If you are a Spoke administrator, you can manage campaigns from the [administration dashboard](./SPOKE_GUIDE.md#dashboards-1).
+If you are a Spoke administrator, you can manage campaigns from the [administration dashboard](#dashboards).
 
 ## Interaction scripts
 
-Interaction scripts define conversation flow and survey questions. They are used by [texters](./SPOKE_GUIDE.md#user-roles) to send prepared messages to contacts and to record answers to the survey questions. Each campaign has an interaction script that can be written and edited on the campaign settings page. Only administrators can edit the script.
+Interaction scripts define conversation flow and survey questions. They are used by [texters](#user-roles) to send prepared messages to contacts and to record answers to the survey questions. Each campaign has an interaction script that can be written and edited on the campaign settings page. Only administrators can edit the script.
 
 An interaction script has three parts:
 
@@ -251,7 +251,7 @@ An interaction script has three parts:
 
 To minimize the chance that your messages are flagged as spam by a carrier as spam, you can write multiple versions of the message that are randomly distributed across the conversations.
 
-In case the conversation departs from the interaction script, you can provide [canned responses](./SPOKE_GUIDE.md#canned-responses) that texters use to handle the situation on a case-by-case basis.
+In case the conversation departs from the interaction script, you can provide [canned responses](#canned-responses) that texters use to handle the situation on a case-by-case basis.
 
 ### Images
 
@@ -261,7 +261,7 @@ Any text before and after the bracketed URL is combined into a single message wi
 
 ## Assignments
 
-There are three ways to assign conversations to texters. All three are available in the campaign settings page. For more information about assigning conversations to texters, see [Create a new campaign](./SPOKE_GUIDE.md#create-a-new-campaign).
+There are three ways to assign conversations to texters. All three are available in the campaign settings page. For more information about assigning conversations to texters, see [Create a new campaign](#create-a-new-campaign).
 
 ### Manual assignment
 
@@ -273,7 +273,7 @@ Dynamic assignment provides an assignment link that administrators can share wit
 
 ### Auto-assignment
 
-Auto-assignment allows texters to request a number of conversations from the texter [dashboard](./SPOKE_GUIDE.md#dashboards-1). This is the most hands-off version of assignment.
+Auto-assignment allows texters to request a number of conversations from the texter [dashboard](#dashboards). This is the most hands-off version of assignment.
 
 After texters make their requests, administrators must approve the requests from the "Assignment Requests" page of the administration dashboard.
 
@@ -289,7 +289,7 @@ Each team is defined by the following:
 
 ## Contact overlap management
 
-Contact overlap management is a step in [creating a campaign](./SPOKE_GUIDE.md#create-a-new-campaign). This window in the campaign settings page displays the number of contacts that overlap with other campaigns. From the window, you can removing overlapping contacts from this campaign to avoid having simultaneous conversations with your contacts. 
+Contact overlap management is a step in [creating a campaign](#create-a-new-campaign). This window in the campaign settings page displays the number of contacts that overlap with other campaigns. From the window, you can removing overlapping contacts from this campaign to avoid having simultaneous conversations with your contacts. 
 
 When you upload a contact list to a campaign, Spoke automatically detects overlapping contacts. It's best to remove overlapping contacts, except in the unusual case that you want to bother them about multiple things at once. You can do this by clicking the trash icon. 
 
@@ -305,15 +305,15 @@ Texters can access canned responses while in a conversation, as shown in the fol
 
 ## Texting hours
 
-Texting hours restrict when [texters](./SPOKE_GUIDE.md#user-roles) can send messages to contacts. Using texting hours minimizes the chance of disturbing someone at inappropriate hours of the day. Spoke's default texting hours have been chosen to comply with regulation regarding consumer telephone contact. **We do not recommend extending these hours** and you do so at your own risk.
+Texting hours restrict when [texters](#user-roles) can send messages to contacts. Using texting hours minimizes the chance of disturbing someone at inappropriate hours of the day. Spoke's default texting hours have been chosen to comply with regulation regarding consumer telephone contact. **We do not recommend extending these hours** and you do so at your own risk.
 
-Texting hours are defined in the [campaign settings page](./SPOKE_GUIDE.md#settings) by a start time, an end time, and a default time zone. The time zone for a contact is determined by their zip code. If a contact does not have a zip code, the default time zone is used.
+Texting hours are defined in the [campaign settings page](#settings) by a start time, an end time, and a default time zone. The time zone for a contact is determined by their zip code. If a contact does not have a zip code, the default time zone is used.
 
 Outside of texting hours, Spoke disables the **Send** and **Send Replies** buttons in the texter to-do list. If you try to send a message outside of the designated texting hours, the text will not send, and you'll receive an error.
 
 ## Campaign actions
 
-You can manage active [campaigns](./SPOKE_GUIDE.md#campaigns) with campaign actions. The following actions are available for each campaign in the campaign list.
+You can manage active [campaigns](#campaigns) with campaign actions. The following actions are available for each campaign in the campaign list.
 
 #### Release Unsent Messages
 
@@ -353,7 +353,7 @@ Texters can continue ongoing conversations after the due date. A campaign ends o
 
 Contact lists are part of every campaign. The contact list provides the full list of people you wish to contact for that campaign. You must provide the contact list in a comma separated values (CSV) format.
 
-Once uploaded to the campaign, Spoke maintains an internal version of the list and modifies it as the campaign progresses. You can export the modified contact list for your own record keeping. For more information, see [Export data from a campaign](./SPOKE_GUIDE.md#export-data-from-a-campaign).
+Once uploaded to the campaign, Spoke maintains an internal version of the list and modifies it as the campaign progresses. You can export the modified contact list for your own record keeping. For more information, see [Export data from a campaign](#export-data-from-a-campaign).
 
 ## CSV Format
 
@@ -363,14 +363,14 @@ Your contact list should be a comma separated values (CSV) file with the followi
 - **lastName** -- (Required) Last names of your contacts.
 - **cell** -- (Required) Cell number of your contacts.
 - **zip** -- (Optional) Zip code of your contacts. If you don't provide a value for timezone, the zip code is used to estimate your contact's timezone.
-- **timezone** -- (Optional) Timezone of your contacts. This is used to enforce [texting hours](./SPOKE_GUIDE.md#texting-hours). You can find a list of time zones in the [Time zone reference]().
+- **timezone** -- (Optional) Timezone of your contacts. This is used to enforce [texting hours](#texting-hours). You can find a list of time zones in the [Time zone reference]().
 - **external_id** -- (Optional) ID to map your contacts to a CRM.
 
 *NOTE:* The **firstName** and **lastName** fields will be automatically capitalized for all values other than common placeholders for unknown names: "friend" and "there".
 
 #### Custom fields
 
-You can include additional, custom fields in the contact list. You can use these fields in the campaign's [interaction script](./SPOKE_GUIDE.md#interaction-scripts), similar to the **firstName** and **lastName** fields.
+You can include additional, custom fields in the contact list. You can use these fields in the campaign's [interaction script](#interaction-scripts), similar to the **firstName** and **lastName** fields.
 
 ## Uploading contact lists
 
@@ -415,7 +415,7 @@ To use this tool, you must provide the exact text you want to replace. If your i
 
 If you leave the **Replace with** field blank, the bulk script editor replaces all instances of the text with nothing, effectively deleting them.
 
-The bulk script editor works only for a single Spoke [organization](./SPOKE_GUIDE.md#organizations-1). If you have multiple organizations, you must use the bulk script editor for each one.
+The bulk script editor works only for a single Spoke [organization](#organizations). If you have multiple organizations, you must use the bulk script editor for each one.
 
 > Note: Clicking the **Find & Replace** button performs the action without confirmation. Click this button only after you've double-checked the text, filters, and other options.
 
@@ -435,7 +435,7 @@ Spoke can detect only the domains you've added to the short-link domain list. UR
 
 ## Settings
 
-The following settings apply to all campaigns in your Spoke organization. You can access these settings from the administrator [dashboard](./SPOKE_GUIDE.md#dashboards-1).
+The following settings apply to all campaigns in your Spoke organization. You can access these settings from the administrator [dashboard](#dashboards).
 
 ## Opt-out message
 
@@ -443,7 +443,7 @@ You can set the default opt-out message that auto-fills the message field when t
 
 ## Texting hours
 
-You can enforce [texting hours](./SPOKE_GUIDE.md#texting-hours) across all campaigns by turning on this feature. This prevents you from disturbing contacts outside of these hours. Each campaign has its own set of texting hours that you specify on the campaign settings page.
+You can enforce [texting hours](#texting-hours) across all campaigns by turning on this feature. This prevents you from disturbing contacts outside of these hours. Each campaign has its own set of texting hours that you specify on the campaign settings page.
 
 ## Assemble Numbers API key
 
@@ -567,7 +567,7 @@ A send status of **DELIVERED** means that Spoke received confirmation that the m
 
 ## Create a new campaign
 
-Creating a [campaign](./SPOKE_GUIDE.md#campaigns) lets you reach out to your contacts in a systematic and scripted manner. Spoke administrators can create campaigns from the Spoke [administration dashboard](./SPOKE_GUIDE.md#dashboards-1).
+Creating a [campaign](#campaigns) lets you reach out to your contacts in a systematic and scripted manner. Spoke administrators can create campaigns from the Spoke [administration dashboard](#dashboards).
 
 > Note: After you create and start a campaign, you can continue editing the campaign information with the exception of the contact list.
 
@@ -581,7 +581,7 @@ In the administrator dashboard, click the **New campaign** button.
 
 The first panel in the campaign creation wizard includes fields for basic campaign information. Enter values for the following fields:
 
-- **Title** (required) -- The title of the campaign. This will be visible to texters and will be used for email notifications and for naming export files. Campaign titles can be useful for the [bulk script editor](./SPOKE_GUIDE.md#bulk-script-editor), so you should consider grouping similar campaigns with the same text at the beginning of the title.
+- **Title** (required) -- The title of the campaign. This will be visible to texters and will be used for email notifications and for naming export files. Campaign titles can be useful for the [bulk script editor](#bulk-script-editor), so you should consider grouping similar campaigns with the same text at the beginning of the title.
 - **Description** (required) -- A description of the campaign. This can be used to include instructions or perhaps just some inspirational text for your texters.
 - **Due Date** (required) -- The date on which the campaign ends. After this date, texters cannot send initial messages for this campaign, and future replies from contacts are stored in the database. This ensures, for example, that you never text out recruiting for an event after that event has passed.
 - **Intro HTML** (optional) -- The HTML that is displayed to texters.
@@ -600,7 +600,7 @@ From the "Contacts" window, perform the following steps:
 3. Browse for the contact-list CSV file, and click **Open**.
 4. Review the upload notifications for processing notes.
 
-For more information on the formatting requirements for your CSV file, see [Contact lists](./SPOKE_GUIDE.md#contact-lists).
+For more information on the formatting requirements for your CSV file, see [Contact lists](#contact-lists).
 
 > Note: Once you start the campaign, you will not be able to change the contact list.
 
@@ -611,7 +611,7 @@ If you uploaded contacts that are also contacts for other active campaigns, thos
 - Leave the campaign with overlapping in the list.
 - Click the trash icon to remove the overlapping contacts from this campaign.
 
-For more information, see [Contact overlap management](./SPOKE_GUIDE.md#contact-overlap-management).
+For more information, see [Contact overlap management](#contact-overlap-management).
 
 ### Step 5: (Optional) Assign teams to the campaign
 
@@ -648,7 +648,7 @@ Auto-assignment occurs when texters in your organization request assignment. You
 
 ### Step 7: Create an interaction script for your texters
 
-To create an interaction script, follow the instructions in [Create an interaction script](./SPOKE_GUIDE.md#create-an-interaction-script).
+To create an interaction script, follow the instructions in [Create an interaction script](#create-an-interaction-script).
 
 ### Step 8: Create canned responses for off-script responses
 
@@ -665,7 +665,7 @@ To add a canned response:
 6. (Optional) Add additional canned responses.
 7. Click **Save**.
 
-For more information, see [Canned responses](./SPOKE_GUIDE.md#canned-responses).
+For more information, see [Canned responses](#canned-responses).
 
 ### Step 9: Set texting hours to minimize disturbance
 
@@ -677,7 +677,7 @@ To set texting hours:
 4. Select a default timezone to apply to contacts without zip codes.
 5. Click **Save**.
 
-For more information, see [Texting hours](./SPOKE_GUIDE.md#texting-hours).
+For more information, see [Texting hours](#texting-hours).
 
 ### Step 10: Set the auto-assignment option
 
@@ -695,7 +695,7 @@ Before you start the campaign, double-check the previous steps to ensure you hav
 
 ## Create an interaction script
 
-You can create an [interaction script](./SPOKE_GUIDE.md#interaction-scripts) while editing the settings of a campaign.
+You can create an [interaction script](#interaction-scripts) while editing the settings of a campaign.
 
 1. Navigate to the campaign settings page by editing a campaign.
 
@@ -870,13 +870,13 @@ Stops the campaign, marks it as archived, and disables all future texting and no
 
 # Text a contact
 
-After you have [requested and received conversation assignments](./SPOKE_GUIDE.md#request-texts-for-assignment), you can begin texting contacts.
+After you have [requested and received conversation assignments](#request-texts-for-assignment), you can begin texting contacts.
 
 ## Send initial messages
 
 To send an initial message:
 
-1. Open the [texter dashboard](./SPOKE_GUIDE.md#dashboards-1).
+1. Open the [texter dashboard](#dashboards).
 
 2. Click **Send first texts**.
 
@@ -890,7 +890,7 @@ Following this procedure takes the conversation out of your to-do list. When the
 
 To send replies to contacts who have responded to an initial message:
 
-1. Open the [texter dashboard](./SPOKE_GUIDE.md#dashboards-1).
+1. Open the [texter dashboard](#dashboards).
 2. Click **Send replies**.
 3. Answer the survey question. This fills the message field with a prepared response.
 4. (Optional) Edit the message as needed. We recommend using the response that your Spoke administrators have carefully crafted for you.
@@ -900,25 +900,25 @@ Following this procedure takes the conversation out of your to-do list. When the
 
 This is the standard procedure for sending a reply. In certain cases, you might need to do one of the following when crafting a reply:
 
-- [Skip the reply](./SPOKE_GUIDE.md#skip-a-reply)
-- [Use a canned response](./SPOKE_GUIDE.md#use-a-canned-response)
-- [Opt out the contact](./SPOKE_GUIDE.md#opt-out-a-contact)
-- [Add a tag to the conversation](./SPOKE_GUIDE.md#add-tags-to-a-conversation)
-- [Escalate the conversation](./SPOKE_GUIDE.md#escalate-a-conversation)
+- [Skip the reply](#skip-a-reply)
+- [Use a canned response](#use-a-canned-response)
+- [Opt out the contact](#opt-out-a-contact)
+- [Add a tag to the conversation](#add-tags-to-a-conversation)
+- [Escalate the conversation](#escalate-a-conversation)
 
 ## Request texts for assignment
 
-If you are a [texter](./SPOKE_GUIDE.md#user-roles) for your organization, you can request text assignments to start conversations with contacts.
+If you are a [texter](#user-roles) for your organization, you can request text assignments to start conversations with contacts.
 
 To request texts:
 
-1. Open the texter [dashboard](./SPOKE_GUIDE.md#dashboards-1).
+1. Open the texter [dashboard](#dashboards).
 2. In the **Count** field, specify the number of conversations you want assigned to you. If there are no unassigned conversations, a message will be displayed.
 3. Click **Request More Texts**.
 
 ## Add tags to a conversation
 
-Adding tags to a conversation allows your Spoke administrators to keep informed about your contacts. You can use tags to indicate your contact's primary language, or you can use tags to [escalate a conversation](./SPOKE_GUIDE.md#escalate-a-conversation). For information on how you should be using tags, contact your Spoke administrators.
+Adding tags to a conversation allows your Spoke administrators to keep informed about your contacts. You can use tags to indicate your contact's primary language, or you can use tags to [escalate a conversation](#escalate-a-conversation). For information on how you should be using tags, contact your Spoke administrators.
 
 To add a tag to a conversation:
 
