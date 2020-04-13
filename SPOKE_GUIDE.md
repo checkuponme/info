@@ -4,13 +4,13 @@ Part of the [Reach4Help](https://www.reach4help.org) Family
 
 [![CheckUpOn.Me site released under the MIT license.](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) [![PRs welcome!](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md) [![! Security!](https://img.shields.io/badge/!-Security-red)](./SECURITY.md)
 
-[CheckUpOn.Me](https://checkupon.me) provides a text-distribution and outreach tool called Spoke for creating connections between volunteers and people who would like to be checked in on. During the COVID-19 pandemic our goal is to help where it's needed most by connecting people in need with volunteers who will be ready to take action. This user manual will go over the basic operating details for Spoke. 
+[CheckUpOn.Me](https://checkupon.me) provides a text-distribution and outreach tool called Spoke for creating connections between volunteers and people who would like to be checked in on. During the COVID-19 pandemic our goal is to help where it's needed most by connecting people in need with volunteers who will be ready to take action. This user manual will go over the basic operating details for Spoke. This documentation and the Fork of spoke we are using was **heavily** influenced by our [upstream](https://politicsrewired.com/spoke/).
 
 # Getting Started with Spoke
 
 To get started with this guide you will need access to a spoke instance. You can either set one up yourself with the directions in the spoke repo or you can drop in on [slack](https://ckup.me/slack) and request access to one of our instances.
 
-Through Spoke, you can organize texting [campaigns](), which provide the structure and tools needed to connect [texters](https://docs.spokerewired.com/article/32-user-roles) in your organization with your contacts. Spoke is meant to be used in combination with a CRM. Spoke is not a CRM and should not be used as one.
+Through Spoke, you can organize texting [campaigns](./SPOKE_GUIDE.md#campaigns), which provide the structure and tools needed to connect [texters](./SPOKE_GUIDE.md#spoke-contact-tool-guide) in your organization with your contacts. Spoke is meant to be used in combination with a CRM. Spoke is not a CRM and should not be used as one.
 
 Spoke's key features include:
 
@@ -20,11 +20,56 @@ Spoke's key features include:
 - Automatic handling and processing of your contact lists
 - Opt-out handling
 
-To begin learning about Spoke, see [Using this documentation](https://docs.spokerewired.com/article/23-using-this-documentation).
-
 ## Using this documentation
 
+The documentation that you find on this website is intended for both Spoke administrators and texters. We recommend that you browse the collections of articles listed below or that you visit [Dashboards](./SPOKE_GUIDE.md#dashboards-1).
+
+#### Administrators
+
+If you are an administrator, we recommend looking through the following categories:
+
+- [Getting started with Spoke](./SPOKE_GUIDE.md#getting-started-with-spoke) -- Introductory articles about first steps with Spoke
+- [Administering Spoke](./SPOKE_GUIDE.md#administering-spoke) -- Guides for administrators to set up user accounts and other {administrator things}
+- [Managing campaigns](./SPOKE_GUIDE.md#managing-campaigns) -- Guides for administrators to create and manage texting campaigns
+- [Concepts](./SPOKE_GUIDE.md#concepts) -- Articles describing the different components you'll find Spoke
+
+#### Texters / Volunteers
+
+If you are a texter, we recommend looking through the following categories:
+
+- [Getting started with Spoke](./SPOKE_GUIDE.md#getting-started-with-spoke) -- Introductory articles about first steps with Spoke
+- [Texting contacts](./SPOKE_GUIDE.md#spoke-contact-tool-guide) -- Guides for texters to use the Spoke messaging application
+- [Concepts](./SPOKE_GUIDE.md#concepts) -- Articles describing the different components you'll find in Spoke
+
 ## Dashboards
+
+### Administration dashboard
+
+The administration dashboard lets you manage your Spoke [organization](./SPOKE_GUIDE.md#organizations-1). From the administration dashboard, you can access the following:
+
+- [Campaigns](./SPOKE_GUIDE.md#campaigns)
+- [User roles](https://docs.spokerewired.com/article/32-user-roles)
+- [Teams](https://docs.spokerewired.com/article/44-teams)
+- [Assignments](https://docs.spokerewired.com/article/33-text-assignment)
+- [Interaction scripts](https://docs.spokerewired.com/article/38-interaction-scripts)
+- [Short-link domains](https://docs.spokerewired.com/article/70-short-link-domains)
+- [Settings](https://docs.spokerewired.com/article/78-settings)
+
+You must be an [administrator or owner](https://docs.spokerewired.com/article/32-user-roles) for your Spoke organization to use the administration dashboard. To access the administration dashboard, use the following URL: 
+
+https://spoke.checkupon.me/admin/organization-number
+
+Where *your-domain* is your Spoke organization's domain name and *organization-number* is the number assigned to your Spoke organization.
+
+### Texter dashboard
+
+The texter dashboard lets you request texts and send messages to any conversations assigned to you. You must have a user account with your Spoke organization to use the texter dashboard.
+
+To access the texter dashboard, use the following URL:
+
+https://spoke.checkupon.me/app/organization-number
+
+Where *your-domain* is your Spoke organization's domain and *organization-number* is the number assigned to your Spoke organization.
 
 # Administering Spoke
 
@@ -101,6 +146,8 @@ If you are a Spoke administrator, you can manage campaigns from the [administrat
 ## Sending locations
 
 ## Send Status
+
+## User Roles
 
 # Managing campaigns
 
