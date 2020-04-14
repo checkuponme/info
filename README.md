@@ -19,6 +19,11 @@ We would love to hear from you!
 
 ## Some Screen Shots
 
+
+**Note: For a full demo and guide on our App:**
+
+**Please visit [Our User Manual and Demo Screenshots](https://github.com/checkuponme/info/blob/master/SPOKE_GUIDE.md)**
+
 ![Spoke](https://checkupon.me/docs/images/texter.gif)
 
 ![Scripts](https://checkupon.me/docs/images/scripting.png)
@@ -27,8 +32,9 @@ We would love to hear from you!
 
 ## Links
 
+#### Please check out our [Project Overview and Functional Specification](https://docs.google.com/document/d/13fXcPPEUqrn-WzIEtGMBgIJfCJyRTFELOs2QWT_SmVc) for full details on this project!!!
+
 * [Please donate so that we can keep operating!](https://opencollective.com/checkuponme)
-* [Project Overview and Functional Specification](https://docs.google.com/document/d/13fXcPPEUqrn-WzIEtGMBgIJfCJyRTFELOs2QWT_SmVc)
 * [Our User Manual and Demo Screenshots](./SPOKE_GUIDE.md)
 * [Our Hackathon DevPost](https://devpost.com/software/checkupon-me)
 * [Our Google Drive](https://drive.google.com/drive/u/3/folders/1yI3vNIrw18Ably0OlW2Si0NWnMqZfwWR)
