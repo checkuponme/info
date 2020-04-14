@@ -8,6 +8,8 @@ Part of the [Reach4Help](https://www.reach4help.org) Family
 
 ![Spoke](https://checkupon.me/docs/images/spoke.png)
 
+![Spoke](https://checkupon.me/docs/images/texter.gif)
+
 # Table of Contents
 
 * [Getting Started with Spoke](#getting-started-with-spoke)
