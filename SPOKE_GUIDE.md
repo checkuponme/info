@@ -217,6 +217,8 @@ If you are a Spoke administrator, you can manage campaigns from the [administrat
 
 ## Interaction scripts
 
+![Scripts](https://checkupon.me/docs/images/scripting.png)
+
 Interaction scripts define conversation flow and survey questions. They are used by [texters](#user-roles) to send prepared messages to contacts and to record answers to the survey questions. Each campaign has an interaction script that can be written and edited on the campaign settings page. Only administrators can edit the script.
 
 An interaction script has three parts:
@@ -229,6 +231,8 @@ To minimize the chance that your messages are flagged as spam by a carrier as sp
 
 In case the conversation departs from the interaction script, you can provide [canned responses](#canned-responses) that texters use to handle the situation on a case-by-case basis.
 
+![Script](https://checkupon.me/docs/images/intscript.png)
+
 ![Interaction Scripts](https://checkupon.me/docs/images/question-script.png)
 
 ### Images
@@ -240,6 +244,8 @@ Any text before and after the bracketed URL is combined into a single message wi
 ## Assignments
 
 There are three ways to assign conversations to texters. All three are available in the campaign settings page. For more information about assigning conversations to texters, see [Create a new campaign](#create-a-new-campaign).
+
+![Assignment](https://checkupon.me/docs/images/Assignment.png)
 
 ### Manual assignment
 
@@ -255,7 +261,7 @@ Auto-assignment allows texters to request a number of conversations from the tex
 
 After texters make their requests, administrators must approve the requests from the "Assignment Requests" page of the administration dashboard.
 
-![Assignment](https://checkupon.me/docs/images/Assignment.png)
+![Auto Assign](https://checkupon.me/docs/images/assign-texter.png)
 
 ## Teams
 
@@ -279,6 +285,8 @@ When you upload a contact list to a campaign, Spoke automatically detects overla
 
 ## Canned responses
 
+![Canned Text](https://checkupon.me/docs/images/cannedconfig.png)
+
 Canned responses are an additional set of prepared messages that texters can use if a conversation deviates from the interaction script. Spoke administrators can create canned responses to handle a variety of situations. They can do this from the campaign settings page while creating or editing a campaign. 
 
 Texters can access canned responses while in a conversation, as shown in the following image:
@@ -292,6 +300,8 @@ Texting hours restrict when [texters](#user-roles) can send messages to contacts
 Texting hours are defined in the [campaign settings page](#settings) by a start time, an end time, and a default time zone. The time zone for a contact is determined by their zip code. If a contact does not have a zip code, the default time zone is used.
 
 Outside of texting hours, Spoke disables the **Send** and **Send Replies** buttons in the texter to-do list. If you try to send a message outside of the designated texting hours, the text will not send, and you'll receive an error.
+
+![Text Hours](https://checkupon.me/docs/images/textinghours.png)
 
 ## Due dates
 
@@ -374,6 +384,8 @@ The bulk script editor works only for a single Spoke [organization](#organizatio
 
 After you use the bulk script editor, a notification displays all instances (or occurrences) of replacement. Once you exit this notification, you cannot open it again. If you want to save the details of the replacements, copy them before clicking **Ok**.
 
+![Bulk Script Editor](https://checkupon.me/docs/images/bulkedit.png)
+
 ## Short-link domains
 
 Short-link domains let you minimize the chance that your messages with links are blocked by carriers. Short links are one of the more common reasons why carriers block messages. Spoke can interface with link shortening services to replace a short link's domain with one that isn't blocked by carriers. 
@@ -385,6 +397,8 @@ You must set up the short links outside of the Spoke application, and they must 
 > Note: If you don't set up short links outside of the application, the links you send out will not work as expected.
 
 Spoke can detect only the domains you've added to the short-link domain list. URLs with other domains will not be replaced.
+
+![Short Link](https://checkupon.me/docs/images/shortlink.png)
 
 ## Settings
 
