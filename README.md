@@ -20,9 +20,10 @@ We would love to hear from you!
 ## Some Screen Shots
 
 
-**Note: For a full demo and guide on our App:**
 
-**Please visit [Our User Manual and Demo Screenshots](https://github.com/checkuponme/info/blob/master/SPOKE_GUIDE.md)**
+**Note: For a full demo and guide on our App:** **Please visit [Our User Manual and Demo Screenshots](https://github.com/checkuponme/info/blob/master/SPOKE_GUIDE.md)**
+
+
 
 ![Spoke](https://checkupon.me/docs/images/texter.gif)
 
