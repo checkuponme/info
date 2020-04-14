@@ -56,7 +56,7 @@ Part of the [Reach4Help](https://www.reach4help.org) Family
    * [From the escalated conversations page](#from-the-escalated-conversations-page)
    * [From the campaign list](#from-the-campaign-list)
    * [Export data from a campaign](#export-data-from-a-campaign)
-   * [Campaign actions](#campaign-actions-1)
+   * [Campaign actions](#campaign-actions)
 * [Spoke Contact Tool Guide](#spoke-contact-tool-guide)
 * [Text a contact](#text-a-contact)
    * [Send initial messages](#send-initial-messages)
