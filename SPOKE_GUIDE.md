@@ -40,7 +40,6 @@ Part of the [Reach4Help](https://www.reach4help.org) Family
    * [Short-link domains](#short-link-domains)
    * [Settings](#settings)
    * [Opt-out message](#opt-out-message)
-   * [Texting hours](#texting-hours-1)
    * [Assemble Numbers API key](#assemble-numbers-api-key)
    * [Sending locations](#sending-locations)
    * [Send Status](#send-status)
@@ -394,10 +393,6 @@ The following settings apply to all campaigns in your Spoke organization. You ca
 ## Opt-out message
 
 You can set the default opt-out message that auto-fills the message field when texters use the opt-out feature.
-
-## Texting hours
-
-You can enforce [texting hours](#texting-hours) across all campaigns by turning on this feature. This prevents you from disturbing contacts outside of these hours. Each campaign has its own set of texting hours that you specify on the campaign settings page.
 
 ## Assemble Numbers API key
 
