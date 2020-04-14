@@ -6,6 +6,8 @@ Part of the [Reach4Help](https://www.reach4help.org) Family
 
 [CheckUpOn.Me](https://checkupon.me) provides a text-distribution and outreach tool called Spoke for creating connections between volunteers and people who would like to be checked in on. During the COVID-19 pandemic our goal is to help where it's needed most by connecting people in need with volunteers who will be ready to take action. This user manual will go over the basic operating details for Spoke. This documentation and the Fork of spoke we are using was **heavily** influenced by our [upstream](https://politicsrewired.com/spoke/).
 
+![Spoke](https://checkupon.me/docs/images/spoke.png)
+
 # Table of Contents
 
 * [Getting Started with Spoke](#getting-started-with-spoke)
@@ -161,6 +163,8 @@ https://spoke.checkupon.me/admin/organization-number
 
 Where *organization-number* is the number assigned to your Spoke organization.
 
+![Admin Dash](https://checkupon.me/docs/images/admin.png)
+
 ### Texter dashboard
 
 The texter dashboard lets you request texts and send messages to any conversations assigned to you. You must have a user account with your Spoke organization to use the texter dashboard.
@@ -252,6 +256,8 @@ An interaction script has three parts:
 To minimize the chance that your messages are flagged as spam by a carrier as spam, you can write multiple versions of the message that are randomly distributed across the conversations.
 
 In case the conversation departs from the interaction script, you can provide [canned responses](#canned-responses) that texters use to handle the situation on a case-by-case basis.
+
+![Interaction Scripts](https://checkupon.me/docs/images/question-script.png)
 
 ### Images
 
@@ -388,6 +394,9 @@ After you click **Save**, the second round handles the following for the campaig
 
 - The removal of all contacts that have opted out.
 - The removal of all contacts from campaigns that you specified in **Filter Existing Campaigns** (see below).
+- Automated filtering can be done with [Assemble Numbers](#assemble-numbers-api-key).
+
+![Filtering](https://checkupon.me/docs/images/filter.png)
 
 Any automated handling of your contact list is detailed in the upload report. You can view the upload report from the contacts window of the campaign settings page.
 
@@ -458,6 +467,8 @@ You can request an Assemble Numbers API key from [here](https://airtable.com/shr
 Sending locations let you message your contacts from localized numbers, giving the conversation a more personal feel. Each sending location is defined by a zip code and has several associated area codes for phone numbers. When a texter messages a contact, Spoke automatically uses the sending location closest to the contact to send the message.
 
 For most, the one or two sending locations pre-configured when you sign up will be all you need. Sending locations can be added on the fly, however, if you are texting in many places or otherwise need more granular control over sending locations. Keep in mind that the more sending locations you have, the more numbers you need to purchase, and the higher the cost.
+
+![Sending Locations](https://checkupon.me/docs/images/proximity.jpg)
 
 **Managing Sending Locations**
 
@@ -566,6 +577,8 @@ A send status of **DELIVERED** means that Spoke received confirmation that the m
 # Managing campaigns
 
 ## Create a new campaign
+
+![Campaign](https://checkupon.me/docs/images/campaign.png)
 
 Creating a [campaign](#campaigns) lets you reach out to your contacts in a systematic and scripted manner. Spoke administrators can create campaigns from the Spoke [administration dashboard](#dashboards).
 
@@ -867,6 +880,8 @@ Similar to Release Unsent Messages, this action is useful to make sure your cont
 Stops the campaign, marks it as archived, and disables all future texting and notifications for the campaign.
 
 # Spoke Contact Tool Guide
+
+![Mobile App](https://checkupon.me/docs/images/mobile.png)
 
 # Text a contact
 
