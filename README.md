@@ -33,7 +33,7 @@ We would love to hear from you!
 
 ## Links
 
-#### Please check out our [Project Overview and Functional Specification](https://docs.google.com/document/d/13fXcPPEUqrn-WzIEtGMBgIJfCJyRTFELOs2QWT_SmVc) for full details on this project!!!
+### Please check out our [Project Overview and Functional Specification](https://docs.google.com/document/d/13fXcPPEUqrn-WzIEtGMBgIJfCJyRTFELOs2QWT_SmVc) for full details on this project!!!
 
 * [Please donate so that we can keep operating!](https://opencollective.com/checkuponme)
 * [Our User Manual and Demo Screenshots](./SPOKE_GUIDE.md)
