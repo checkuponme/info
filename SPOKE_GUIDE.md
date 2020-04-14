@@ -25,24 +25,14 @@ Part of the [Reach4Help](https://www.reach4help.org) Family
 * [Concepts](#concepts)
    * [Campaigns](#campaigns)
    * [Interaction scripts](#interaction-scripts)
-      * [Images](#images)
    * [Assignments](#assignments)
-      * [Manual assignment](#manual-assignment)
-      * [Dynamic assignment](#dynamic-assignment)
-      * [Auto-assignment](#auto-assignment)
    * [Teams](#teams)
    * [Contact overlap management](#contact-overlap-management)
    * [Canned responses](#canned-responses)
    * [Texting hours](#texting-hours)
-   * [Campaign actions](#campaign-actions)
-      * [Release Unsent Messages](#release-unsent-messages)
-      * [Mark For Second Pass](#mark-for-second-pass)
-      * [Release Unreplied Conversations](#release-unreplied-conversations)
-      * [Archive Campaign](#archive-campaign)
    * [Due dates](#due-dates)
    * [Contact lists](#contact-lists)
    * [CSV Format](#csv-format)
-      * [Custom fields](#custom-fields)
    * [Uploading contact lists](#uploading-contact-lists)
    * [Filtering existing campaigns](#filtering-existing-campaigns)
    * [Conversation tags](#conversation-tags)
@@ -55,25 +45,8 @@ Part of the [Reach4Help](https://www.reach4help.org) Family
    * [Sending locations](#sending-locations)
    * [Send Status](#send-status)
    * [User Roles](#user-roles)
-      * [Owner](#owner)
-      * [Administrator](#administrator)
-      * [Texter](#texter)
 * [Managing campaigns](#managing-campaigns)
    * [Create a new campaign](#create-a-new-campaign)
-      * [Step 1: Start the campaign creation wizard](#step-1-start-the-campaign-creation-wizard)
-      * [Step 2: Enter campaign information](#step-2-enter-campaign-information)
-      * [Step 3: Import contacts to the campaign](#step-3-import-contacts-to-the-campaign)
-      * [Step 4: Resolve any overlapping contacts with other campaigns](#step-4-resolve-any-overlapping-contacts-with-other-campaigns)
-      * [Step 5: (Optional) Assign teams to the campaign](#step-5-optional-assign-teams-to-the-campaign)
-      * [Step 6: Set the assignment options for texters](#step-6-set-the-assignment-options-for-texters)
-         * [Manually assign contacts to texters](#manually-assign-contacts-to-texters)
-         * [Dynamically assign contacts to texters](#dynamically-assign-contacts-to-texters)
-         * [Auto-assignment](#auto-assignment-1)
-      * [Step 7: Create an interaction script for your texters](#step-7-create-an-interaction-script-for-your-texters)
-      * [Step 8: Create canned responses for off-script responses](#step-8-create-canned-responses-for-off-script-responses)
-      * [Step 9: Set texting hours to minimize disturbance](#step-9-set-texting-hours-to-minimize-disturbance)
-      * [Step 10: Set the auto-assignment option](#step-10-set-the-auto-assignment-option)
-      * [Step 11: Start the campaign](#step-11-start-the-campaign)
    * [Create an interaction script](#create-an-interaction-script)
    * [Colors and tags for active campaigns](#colors-and-tags-for-active-campaigns)
    * [Color coding](#color-coding)
@@ -82,14 +55,8 @@ Part of the [Reach4Help](https://www.reach4help.org) Family
    * [From the message review page](#from-the-message-review-page)
    * [From the escalated conversations page](#from-the-escalated-conversations-page)
    * [From the campaign list](#from-the-campaign-list)
-      * [Release unsent messages](#release-unsent-messages-1)
-      * [Release unreplied conversations](#release-unreplied-conversations-1)
    * [Export data from a campaign](#export-data-from-a-campaign)
    * [Campaign actions](#campaign-actions-1)
-      * [Release Unsent Messages](#release-unsent-messages-2)
-      * [Mark For Second Pass](#mark-for-second-pass-1)
-      * [Release Unreplied Conversations](#release-unreplied-conversations-2)
-      * [Archive Campaign](#archive-campaign-1)
 * [Spoke Contact Tool Guide](#spoke-contact-tool-guide)
 * [Text a contact](#text-a-contact)
    * [Send initial messages](#send-initial-messages)
@@ -97,14 +64,10 @@ Part of the [Reach4Help](https://www.reach4help.org) Family
    * [Request texts for assignment](#request-texts-for-assignment)
    * [Add tags to a conversation](#add-tags-to-a-conversation)
    * [Opt out a contact](#opt-out-a-contact)
-      * [Opt out with a message](#opt-out-with-a-message)
-      * [Opt out without a message](#opt-out-without-a-message)
    * [Use a canned response](#use-a-canned-response)
    * [Skip a reply](#skip-a-reply)
    * [Escalate a conversation](#escalate-a-conversation)
    * [Include an image in a message](#include-an-image-in-a-message)
-      * [Size limitations](#size-limitations)
-      * [Send an image with links](#send-an-image-with-links)
 * [Appendix](#appendix)
    * [Timezone Reference](#timezone-reference)
 
@@ -190,6 +153,8 @@ To invite texters to join your organization on Spoke:
 
 When someone clicks on the link, they will be able to create an account.
 
+![Invite](https://checkupon.me/docs/images/invite.png)
+
 ## Assign user roles
 
 [User roles](#user-roles) can be assigned from the "People" page of the [administration dashboard](#dashboards). After you [invite texters](#invite-texters-to-spoke) to your Spoke organization, users are automatically listed with the default **Texter** role.
@@ -198,6 +163,8 @@ To change a user's role:
 
 1. From the "People" page, click the arrow next to the role name.
 2. Select a new role. For more information about the different user roles, see [User roles](#user-roles).
+
+![People](https://checkupon.me/docs/images/people.png)
 
 ## Create a team
 
@@ -212,11 +179,15 @@ To create a team:
 5. Enter an assignment priority value for the team. The lower the number, the higher the priority.
 6. Click **Create**.
 
+![Create Team](https://checkupon.me/docs/images/createteam.png)
+
 To add texters to a team:
 
 1. Select the team from the team list.
 2. Enter a texter's name in the **Add Texter** field.
 3. Select the name from the list.
+
+![Add Team Members](https://checkupon.me/docs/images/addteam.png)
 
 ## Organizations
 
@@ -242,6 +213,8 @@ Each campaign has a contact list and an [interaction script](#interaction-script
 A campaign should have a single purpose -- for example, to inform your contacts of an event or to ask about issue priority -- so that you can tailor your interaction script to properly convey that information. You can run multiple campaigns simultaneously to reach your contacts about different things.
 
 If you are a Spoke administrator, you can manage campaigns from the [administration dashboard](#dashboards).
+
+![Campaign](https://checkupon.me/docs/images/campscreen.png)
 
 ## Interaction scripts
 
@@ -283,6 +256,8 @@ Auto-assignment allows texters to request a number of conversations from the tex
 
 After texters make their requests, administrators must approve the requests from the "Assignment Requests" page of the administration dashboard.
 
+![Assignment](https://checkupon.me/docs/images/Assignment.png)
+
 ## Teams
 
 Teams are groups of texters in your organization. Teams provide a method of designating texters for special cases or with different skillsets. For example, you can assign a team of Spanish-speaking texters to a campaign that reaches out to Spanish-speakers.
@@ -292,6 +267,8 @@ Each team is defined by the following:
 - **Name** -- The name of the team. When you assign a team to a campaign, you use the team name.
 - **Description** -- A description of the team. Use this to keep track of your teams.
 - **Priority number** -- The priority number used to determine conversation assignment for team members. The lower the number, the higher the priority.
+
+![Teams](https://checkupon.me/docs/images/teams.png)
 
 ## Contact overlap management
 
@@ -316,38 +293,6 @@ Texting hours restrict when [texters](#user-roles) can send messages to contacts
 Texting hours are defined in the [campaign settings page](#settings) by a start time, an end time, and a default time zone. The time zone for a contact is determined by their zip code. If a contact does not have a zip code, the default time zone is used.
 
 Outside of texting hours, Spoke disables the **Send** and **Send Replies** buttons in the texter to-do list. If you try to send a message outside of the designated texting hours, the text will not send, and you'll receive an error.
-
-## Campaign actions
-
-You can manage active [campaigns](#campaigns) with campaign actions. The following actions are available for each campaign in the campaign list.
-
-#### Release Unsent Messages
-
-Unassigns all conversations waiting for an initial message from a texter.
-
-Sometimes, texters request a number of conversations but won't handle all of them. If that happens, you can release those conversations so that they can be assigned to other texters.
-
-#### Mark For Second Pass
-
-Marks all conversations that didn't receive a response from the contact as needing an initial message.
-
-> Note: You can use this action only before the due date of a campaign.
-
-This action is useful for following up with contacts who didn't see the initial message or who forgot to reply. If you use this action, you should also change the script's initial message so that texters don't send the exact same message twice. For example, you could start the new initial message with, "Hey, not sure if you saw my first text..."
-
-When you use this action, a notification displays the number of conversations that are marked for a second pass.
-
-#### Release Unreplied Conversations
-
-Unassigns conversations waiting for a response from a texter.
-
-When you use this action, you must specify a number of hours since the contact's last message. Any conversations that haven't been idle for that long are not unassigned.
-
-Similar to Release Unsent Messages, this action is useful to make sure your contacts are receiving prompt responses from your texters.
-
-#### Archive Campaign
-
-Stops the campaign, marks it as archived, and disables all future texting and notifications for the campaign.
 
 ## Due dates
 
@@ -782,6 +727,8 @@ To reassign conversations from the message review page:
 
 7. Click **Reassign selected** to reassign all selected contacts or **Reassign all \*n\* matching** to reassign all contacts that match the filter.
 
+![Review](https://checkupon.me/docs/images/messagereview.png)
+
 ## From the escalated conversations page
 
 From the escalated conversations page, you can manually reassign (or unassign) escalated conversations to texters who can handle the conversation.
@@ -940,6 +887,8 @@ To add a tag to a conversation:
 1. From an open conversation, click **Manage tags**.
 2. Choose one or more tags from the list. You cannot create your own tag. 
 3. Click **Save**.
+
+![Tags](https://checkupon.me/docs/images/tags.png)
 
 ## Opt out a contact
 
