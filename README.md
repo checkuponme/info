@@ -13,7 +13,7 @@ Our outreach platform is built with open source tools such as Nodejs, React, PHP
 **We are an open project! [Learn how to contribute!](./CONTRIBUTING.md)**
 
 We would love to hear from you! 
-[Join us on slack!](https://ckup.me/slack) Join channel #team-checkuponme
+[Join us on slack!](https://ckup.me/slack) Join channel #checkuponme
 
 [View the currently ongoing projects](https://app.zenhub.com/workspaces/checkuponme-5e8e3956beee58232ea519a4/board?repos=252629679,252606726,250885954,249560771)
 
@@ -89,7 +89,7 @@ While we are certainly open to all forms of help, we are currently looking for p
 - Partner organization coordinator - Manage our relationships with other organizations
 - Financial Bookkeeper
 
-These are all positions that have the possibility of evolving into part time or full time paid opportunities as more funding becomes available. If you feel that you would excel in any of those roles, feel free to drop by our slack channel: https://ckup.me/slack **#team-checkuponme** and introduce yourself or [apply here](https://forms.gle/ycgn3i5AeJiWk4S58).
+These are all positions that have the possibility of evolving into part time or full time paid opportunities as more funding becomes available. If you feel that you would excel in any of those roles, feel free to drop by our slack channel: https://ckup.me/slack **#checkuponme** and introduce yourself or [apply here](https://forms.gle/ycgn3i5AeJiWk4S58).
 
 ## Funding
 
