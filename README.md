@@ -37,6 +37,7 @@ We would love to hear from you!
 
 * [Please donate so that we can keep operating!](https://opencollective.com/checkuponme)
 * [Our User Manual and Demo Screenshots](./SPOKE_GUIDE.md)
+* [Join our public discord server for friendly conversation and games!](https://discord.gg/6q7WAD8)
 * [Our Hackathon DevPost](https://devpost.com/software/checkupon-me)
 * [Our Google Drive](https://drive.google.com/drive/u/3/folders/1yI3vNIrw18Ably0OlW2Si0NWnMqZfwWR)
 * [Progressive Coders Project Proposal](https://github.com/ProgressiveCoders/projects/issues/160)
