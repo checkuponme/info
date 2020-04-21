@@ -15,7 +15,7 @@ Our outreach platform is built with open source tools such as Nodejs, React, PHP
 We would love to hear from you! 
 [Join us on slack!](https://ckup.me/slack) Join channel #checkuponme
 
-[View the currently ongoing projects](https://app.zenhub.com/workspaces/checkuponme-5e8e3956beee58232ea519a4/board?repos=252629679,252606726,250885954,249560771)
+[View the currently ongoing projects and open issues](./PROJECTS.md)
 
 ## Some Screen Shots
 
@@ -33,16 +33,24 @@ We would love to hear from you!
 
 ## Links
 
-### Please check out our [Project Overview and Functional Specification](https://docs.google.com/document/d/13fXcPPEUqrn-WzIEtGMBgIJfCJyRTFELOs2QWT_SmVc) for full details on this project!!!
+* [Project Overview and Functional Specification](https://docs.google.com/document/d/13fXcPPEUqrn-WzIEtGMBgIJfCJyRTFELOs2QWT_SmVc)
+
+* [Our User Manual and Demo Screenshots](./SPOKE_GUIDE.md)
+
+  
 
 * [Please donate so that we can keep operating!](https://opencollective.com/checkuponme)
-* [Our User Manual and Demo Screenshots](./SPOKE_GUIDE.md)
+
 * [Join our public discord server for friendly conversation and games!](https://discord.gg/6q7WAD8)
+
 * [Our Hackathon DevPost](https://devpost.com/software/checkupon-me)
-* [Our Google Drive](https://drive.google.com/drive/u/3/folders/1yI3vNIrw18Ably0OlW2Si0NWnMqZfwWR)
+
 * [Progressive Coders Project Proposal](https://github.com/ProgressiveCoders/projects/issues/160)
+
 * [The Progressive Coders Network](https://www.progcode.org)
+
 * [Helpful Engineering](https://www.helpfulengineering.org)
+
 * [Our URL Shortener - ckup.me](https://ckup.me)
 
 ## Our Team

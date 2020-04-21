@@ -24,12 +24,11 @@ Here are a couple of friendly tutorials to help you get started: http://makeapul
 
 At this point, you're ready to make your changes! Feel free to ask for help; everyone is a beginner at first :smile_cat:
 
-### Projects
+### Projects and Open Issues - Where to find work
 
-Each project counts with it's own contributing guidelines, since they are different.
-So to read the specific guidelines for each project please refer to the CONTRIBUTING.md doc in the respective repository.
+We make heavy use of the issue trackers and project boards on github. Please use the page below for links and descriptions for each project.
 
-[View the currently ongoing org wide projects](https://app.zenhub.com/workspaces/checkuponme-5e8e3956beee58232ea519a4/board?repos=252629679,252606726,250885954,249560771)
+[View details about projects and open issues](./PROJECTS.md)
 
 ### How to report a bug
 
