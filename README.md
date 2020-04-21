@@ -12,10 +12,11 @@ Our outreach platform is built with open source tools such as Nodejs, React, PHP
 
 **We are an open project! [Learn how to contribute!](./CONTRIBUTING.md)**
 
-We would love to hear from you! 
-[Join us on slack!](https://ckup.me/slack) Join channel #checkuponme
-
+**Looking for something to work on?**
 [View the currently ongoing projects and open issues](./PROJECTS.md)
+
+**Found something you want to work on? We would love to hear from you!** 
+[Join us on slack!](https://ckup.me/slack) Join channel #checkuponme
 
 ## Some Screen Shots
 
@@ -132,8 +133,3 @@ Because of the work we are putting forward in solving a major issue during this 
 ### CheckUpOnMe Interaction Flow
 
 ![CheckUpOnMe Interaction Flow](https://checkupon.me/images/spec/DataFlowDiagram-20200326.png)
-
-### Integration with ReachForHelp MVP
-
-The ReachForHelp (r4h) organization has developed a strong platform for vetting volunteers and Persons In Need (PINs). This lends itself to complementary functionality, where r4h handles the creation of users, volunteers, and campaigns (geographic regions), and spoke handles workflow management and call connection.
-This would be handled via service triggers built into r4h. A new user corresponds to a PIN, so will be added to campaign_contacts. As yet unanswered is how to organize campaigns in spoke, since there’s already a zip code function we should leverage that. Volunteers would be added to the users table, and assigned to teams.
